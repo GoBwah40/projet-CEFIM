@@ -1,0 +1,63 @@
+/* Made by Alexane */
+
+/*** Structure globale ***/
+
+main{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(70deg, #000, #FF007F, #FD3F92, #FD6C9E) ;
+    background-image: url("https://stickerdeco.fr/wp-content/uploads/2019/04/sticker-licorne-dab-02.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+div.content-card {
+    background-color: rgb(63, 65, 85);
+    background-color: #E16A8F;
+}
+div.content-card_body {
+    background-color: #5e6488;
+}
+.filter-products {
+    background-color: transparent;
+    box-shadow: none;
+}
+.filter-products li:hover {
+    background-color: #C6A8D1;
+    transition: 0.4s;
+}
+
+.filter-products li {
+    background-color: #E16A8F;
+    transition: 0.4s;
+}
+
+div.content-card_body-info p {
+    color: #4C2A50;
+}
+div.content-card_body h2 {
+    color: #512C53;
+}
+aside.main-nav {
+    color: #512C53;
+}
+ul.main-nav_list {
+    background-color: #E16A8F
+}
+.selected-main-nav {
+    background-color: #C6A8D1;
+}
+
+div.content-card_body h2 {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d800ee, 0 0 30px #d800ee, 0 0 50px #006eff, 0 0 60px #00c3ff, 0 0 80px #001aff, 0 0 100px #002fff;
+}
+.content-card_footer a {
+    background: #C2A6D1;
+}
+.delete {
+    background-color: #5e6488;
+}
+.delete:hover {
+    background-color: #C6A8D1;
+}

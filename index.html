@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEFIMOI - Accueil</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+    <aside class="main-nav">
+        <div class="title">
+            <h1>CEFI<em>M</em>OI</h1>
+            <p class="baseline">
+                Car je suis CEFIM de toi
+            </p>
+        </div>
+        <ul class="main-nav_list">
+            <li class="main-nav_item selected-main-nav">
+                <!-- Page de Valère -->
+                <a id="home" href="index.html">Accueil</a>
+            </li>
+            <li class="main-nav_item">
+                <!-- Page de Matthias -->
+                <a id="cart" href="panier.html">Panier</a>
+            </li>
+            <li class="main-nav_item">
+                <!-- Page d'Alexane -->
+                <a id="team" href="team.html">Team</a>
+            </li>
+        </ul>
+        <div class="cart cart-hidden">
+            <div id="cart-icon"><a id="cart-icon-link" href="panier.html"><img src="img/icons/shopping-cart-white.png" alt=""></a> 
+            </div>
+            <div id="cart-price">
+                <p id="total-products">0</p>
+                €</div>
+        </div>
+    </aside>
+    <aside class="content">
+        <div>
+            <ul class="filter-products">
+                <li class="filter-products-item filter-products-selected">Tout</li>
+            </ul>
+
+        </div>
+
+        <div class="products"></div>
+    </aside>
+</main>
+</body>
+<script src="js/valere/main.js"></script>
+</html>
